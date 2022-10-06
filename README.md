@@ -27,3 +27,9 @@ php artisan serve
 POST http://127.0.0.1:8000/api/mutant{
     dna:["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
 }
+
+
+elastic beank
+http://services.us-west-2.elasticbeanstalk.com/api/mutant{
+    dna:["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
+}
